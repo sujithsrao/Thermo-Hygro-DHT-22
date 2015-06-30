@@ -1,3 +1,27 @@
+/*
+  *  DHT_Sensor_Test.c
+  *  Version  1.2
+  *  Created: 26/06/2015 01:19:36 p. m.
+  *  Author : Group
+  *	 AM2302/DHT22 (Temperature and Humidity sensor)
+  *  _________
+  * |  -+-+-  |
+  * | +-+-+-+ |
+  * | +-+-+-+ |
+  * |  -+-+-  |
+  * | +-+-+-+ |
+  * |_________|
+  *   | | | |
+  *   1 2 3 4
+  *
+  * 1. VCC (3 to 5V power)
+  * 2. Data out (Pull up 10k)
+  * 3. Not connected
+  * 4. Ground
+  * Returns: Sensor Reading (Reading not displayed yet)
+  * Read the datasheet for more information about the times.
+ */
+
 //Libraries
 #include <avr/io.h>
 #include <util/delay.h>
